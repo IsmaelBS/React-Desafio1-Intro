@@ -1,0 +1,23 @@
+.comments {
+  margin-top: 20px;
+}
+
+.comment {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.comment > .content {
+  background: #eeeeee;
+  padding: 10px 15px;
+  border-radius: 5px;
+  flex: 1;
+  font-weight: 300;
+}
+
+.comment > .content > small {
+  font-weight: bold;
+  font-size: 1rem;
+  display: inline-block;
+  margin-right: 5px;
+}

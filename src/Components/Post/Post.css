@@ -1,0 +1,37 @@
+.post_item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.comment_info {
+  display: flex;
+}
+
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  margin-right: 20px;
+}
+
+.profile_name {
+  font-size: 1rem;
+  color: #4a4a4a;
+  font-weight: 600;
+}
+
+.comment_date {
+  font-size: 0.7rem;
+  color: #9a9a9a;
+  font-weight: 300;
+}
+
+.comment {
+  color: #3e3e3e;
+  font-size: 1rem;
+  margin: 20px 0 0 0;
+  line-height: 22px;
+}
